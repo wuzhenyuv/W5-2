@@ -4,7 +4,7 @@ async function main() {
     let [owner] = await ethers.getSigners();
     //atToken:0x9A7d909DE8e09B47d5267b15368B9ca4982Da4db 
     let Token = await ethers.getContractFactory("Token");
-    let aAmount = ethers.utils.parseUnits("100000", 18);
+    let aAmount = ethers.utils.parseUnits("200000", 18);
     let atoken = await Token.deploy(
         "AToken",
         "AToken",

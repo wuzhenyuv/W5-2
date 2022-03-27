@@ -35,5 +35,11 @@ module.exports = {
         mnemonic : process.env.MNEMONIC,
       }
     },
+    kovan: {
+      url: process.env.KOVAN_URL || "",
+      accounts:{
+        mnemonic : process.env.MNEMONIC,
+      }
+    },
   },
 };
